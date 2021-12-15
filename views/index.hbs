@@ -1,0 +1,9 @@
+<h1>Account Login</h1>
+<form novalidate class="login-form" method="POST" action="/">
+  <input name="email" type="email" placeholder="Email" required>
+  <input name="password" type="password" placeholder="Password" required>
+  <button class="form-submit-btn" type="submit">Sign in</button>
+  {{# if errorMsg }}
+    <h3 class="error-message">{{  errorMsg }}</h3>
+  {{/if}}
+</form>
