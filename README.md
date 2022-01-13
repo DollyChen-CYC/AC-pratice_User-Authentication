@@ -2,7 +2,7 @@
 This is a simple user authentication page built by Express and Handlebars.
 
 ### Specification 
-- User Express and Handlebars to build a simple login page.
+- Use Express and Handlebars to build a simple login page.
 - Verify users by comparing the following dummy data:
 
 ```js
